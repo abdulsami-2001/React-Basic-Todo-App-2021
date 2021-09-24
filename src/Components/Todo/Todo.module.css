@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    z-index: 0px;
+}
+
+body{
+    background-color: #5d5f71;
+}
+
+.mainCont{
+    min-height: 550px;
+    width: 380px;
+    background-color: #BF8B85;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px -3px black;
+    overflow: hidden;
+}
+
+
+.inputField{
+    margin: 18px;
+    background-color: #AD8A64;
+    border: none;
+    outline: none;
+    height: 62px;
+    width: 250px;
+    border-radius: 8px;
+    color: #e3d8f1;
+    box-shadow: 2px 2px 10px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 5px ;
+
+}
+
+.addBtn{
+    width: 70px;
+    background-color: #AD8A64;
+    color: #e3d8f1;
+    height: 60px;
+    border-radius: 8px;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: 2px 2px 10px -1px black;
+
+}
+
+.inputField::placeholder{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e3d8f1;
+    padding-left: 5px ;
+}
+
