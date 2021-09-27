@@ -4,7 +4,7 @@ import Todo from './Components/Todo/Todo.component'
 const App = () => {
     return (
         <>
-            <Todo/>
+             <Todo/>
         </>
     )
 }
